@@ -113,9 +113,16 @@ For more detailed information on SVG structure and elements, you can refer to th
 
 <details>
     <summary>Your SVG Code</summary>
-    <code>
-    ......
-    </code>
+   <?xml version="1.0" encoding="UTF-8"?>
+     <svg xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          width="800mm" height="600mm"
+          viewBox="-400 -300 800 600">
+       <title>TEST SVG</title>
+       <rect x="1" y="1" width="100" height="1" fill="black"  />
+       <circle cx="1" cy="10" r="5" fill="blue" />
+       <rect x="1" y="20" width="100" height="20" fill="green"  />
+     </svg>
 </details>
 
 ### Task 2: Markdown
@@ -126,18 +133,25 @@ It is an easy and lightweight syntax, to instruct a display software to render t
 
 <details>
     <summary>How does prepending hashes (<code>#</code>) affect the display?</summary>
-    ......
+    The Number of the prepending hashes marks the lavel of a heading in a file.
 </details>
 <details>
     <summary>How do you mark italic or bold font?</summary>
     <code>
-    ......
+    To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
+         *Hello World*
+    To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
+         **Hello World**
     </code>
 </details>
 <details>
     <summary>Which different ways are there to generate listings and tables?</summary>
     <code>
-    ......
+    To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
+     To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
+
+     To create a table in Markdown
+Use pipes | to separate columns and hyphens - to create the header row
     </code>
 </details>
 
